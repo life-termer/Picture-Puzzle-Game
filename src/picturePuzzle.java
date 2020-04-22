@@ -140,6 +140,7 @@ public class picturePuzzle extends JFrame implements ActionListener {
     }
 
     public void initGUI() {
+        Image icon = Toolkit.getDefaultToolkit().getImage("pic/icon.png");
         JPanel p = new JPanel();
         p.setBounds(10, 80, 300, 300);
         p.setLayout(new GridLayout(3, 3));
@@ -173,6 +174,7 @@ public class picturePuzzle extends JFrame implements ActionListener {
         add(p);
         setLayout(null);
         setSize(600, 500);
+        setIconImage(icon);
         setForeground(Color.darkGray);
         setVisible(true);
         setResizable(false);
