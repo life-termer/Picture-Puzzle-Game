@@ -145,20 +145,8 @@ public class picturePuzzle extends JFrame implements ActionListener {
         p.setBounds(10, 80, 300, 300);
         p.setLayout(new GridLayout(3, 3));
 
-        p.add(b1);
-        p.add(b2);
-        p.add(b3);
-        p.add(b4);
-        p.add(b5);
-        p.add(b6);
-        p.add(b7);
-        p.add(b8);
-        p.add(b9);
-        add(picture);
-        add(stB);
-        add(label1);
-        add(label2);
-        add(label3);
+        p.add(b1);p.add(b2);p.add(b3);p.add(b4);p.add(b5);p.add(b6);p.add(b7);
+        p.add(b8);p.add(b9);add(picture);add(stB);add(label1);add(label2);add(label3);
         b1.addActionListener(this::gameLogic);
         b2.addActionListener(this::gameLogic);
         b3.addActionListener(this::gameLogic);
